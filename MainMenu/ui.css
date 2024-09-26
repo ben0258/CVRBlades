@@ -894,6 +894,7 @@
     
         padding: 0.5em;
 		padding-right: 62%;
+		padding-top: 90px;
     }
     .world-instancing.in {
         left: 0%;
@@ -907,8 +908,12 @@
         visibility: hidden;
     }
     
+	.world-instancing h2 {
+		color: white;
+	}
+
     .world-instancing h2, .world-instancing h3 {
-        margin-top: 0;
+        margin-top: 0.5;
         text-align: left;
     }
     
@@ -925,11 +930,11 @@
     
     .btn-region .region-select {
         width: 33.333333%;
-        background-color: rgba(43, 189, 34, 1);
+        background-color: transparent;
     }
     .btn-rule .rule-select {
         width: 50%;
-        background-color: rgba(43, 189, 34, 1);
+        background-color: transparent;
     }
     .btn-region .region-select + .region-select,
     .btn-rule .rule-select + .rule-select {
@@ -939,7 +944,7 @@
     .btn-region .region-select:hover,
     .btn-rule .rule-select.active,
     .btn-rule .rule-select:hover {
-        background: linear-gradient(to bottom, #ffffff 0%, #19002d 36%);
+        background: linear-gradient(to bottom, #ffffffff 0%, #000000 0%);
     }
     
     .inp-hidden {
@@ -949,19 +954,23 @@
     /*Avatar Categories*/
     .favorite-category-selection {
         position: absolute;
-        background-color: rgba(215, 215, 215, 1);
+        background: top / 2560px 1250px no-repeat url("https://github.com/ben0258/CVRBlades/blob/main/Assets/ask.png?raw=true");
         left: -100%;
-
-        border: 0px none;
+		width: 100%;
+        height: 1440px;
+		top: 0%;
+    
+        border: 0px;
     
         padding: 0.5em;
+		padding-right: 62%;
     }
     .favorite-category-selection.in {
-        left: 35%;
+        left: 0%;
         transition: left 0.2s linear;
     }
     .favorite-category-selection.out {
-        left: 100%;
+        left: -100%;
         transition: left 0.2s linear;
     }
     .favorite-category-selection.hidden {
@@ -980,15 +989,17 @@
         height: 2.5em;
         top: 1em;
         right: 1em;
+		padding-right: 62%;
     }
     .favorite-category-selection .apply-btn {
         height: 2.5em;
         bottom: 1em;
-        position: absolute;
-        left: 1em;
+        position: center;
+        left: 0em;
         width: 8em;
         text-align: center;
         padding: 0.5em;
+		padding-right: 62%;
     }
     .favorite-category-selection span {
         position: relative;
@@ -1855,19 +1866,19 @@
     
     /*Inputs*/
     .inp_slider {
-        border: 1px solid rgba(0, 0, 0, 100);;
+        border: 5px solid rgba(0, 0, 0, 0.4);;
         width: 100%;
         height: 2em;
         position: relative;
         margin-bottom: 1em;
-		background: slategrey;
-		border-radius: 12px;
+		background: linear-gradient(to bottom, #eeeeee2e, #00000000);
+		border-radius: 60px;
     }
     .inp_slider .valueBar {
         position: absolute;
         height: 100%;
-        background: linear-gradient(to bottom, #5e2dad, #0584cb);
-		border-radius: 12px;
+        background: linear-gradient(to bottom, #90cd84, #80c672, #90cd84);
+		border-radius: 60px;
         overflow-x: hidden;
     }
     .inp_slider .valueLabel {
@@ -1902,8 +1913,8 @@
         height: 8em;
     }
     .inp_dropdown {
-        border: 1px solid rgba(0, 0, 0, 100);;
-		background: slategrey;
+        border: 1px solid rgba(0, 0, 0, 0.3);;
+		background: transparent;
         width: 15em;
         height: 2em;
         position: relative;
@@ -1953,7 +1964,7 @@
         display: none;
         border: 1px solid rgba(0, 0, 0, 100);;
     
-        background-color: rgba(43, 189, 34, 1);
+        background-color: rgba(75, 75, 75, 1);
     }
     .inp_dropdown.open .valueList {
         display: block;
@@ -1981,13 +1992,13 @@
     .inp_toggle {
         height: 2em;
         width: 2em;
-        border: 1px solid rgba(0, 0, 0, 100);;
-		background: slategrey;
+        border: 2px solid rgba(0, 0, 0, 0.3);;
+		background: transparent;
         margin-bottom: 1em;
 		border-radius: 12px;
     }
     .inp_toggle.checked {
-        background: linear-gradient(to bottom, #5e2dad, #0584cb);
+        background: linear-gradient(to bottom, #aade96, #80c672, #aade96);
     }
     
     .option-caption {
@@ -2282,7 +2293,7 @@
         line-height: 1.333333em;
         font-size: 1.5em;
         color: rgb(60,60,60);
-        background: linear-gradient(to bottom, #ffffff, #db9f0d);
+        background: transparent;
     }
     .imperialDisplay {
         width: 30%;
@@ -2290,7 +2301,7 @@
         text-align: center;
         line-height: 1.333333em;
         font-size: 1.5em;
-        color: white;
+        color: black;
     }
     
     .inp_btn_action {
@@ -2300,7 +2311,7 @@
         line-height: 1.333333em;
         font-size: 1.5em;
         color: white;
-        background: linear-gradient(to bottom, #ffffff, #0ddba5);
+        background: transparent;
     }
     
     .inp_joystick {
