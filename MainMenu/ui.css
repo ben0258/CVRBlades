@@ -572,7 +572,7 @@
     
     /*World Detail*/
     #world-detail {
-        background-color: rgba(35, 15, 38, 1);
+        background-color: rgba(43, 189, 34, 1);
     }
     
     #world-detail h1 {
@@ -925,11 +925,11 @@
     
     .btn-region .region-select {
         width: 33.333333%;
-        background-color: rgba(35, 15, 38, 1);
+        background-color: rgba(43, 189, 34, 1);
     }
     .btn-rule .rule-select {
         width: 50%;
-        background-color: rgba(35, 15, 38, 1);
+        background-color: rgba(43, 189, 34, 1);
     }
     .btn-region .region-select + .region-select,
     .btn-rule .rule-select + .rule-select {
@@ -998,7 +998,7 @@
     
     /*Instance Detail*/
     #instance-detail {
-        background-color: rgba(35, 15, 38, 1);
+        background-color: rgba(43, 189, 34, 1);
     }
     
     #instance-detail h1 {
@@ -1953,7 +1953,7 @@
         display: none;
         border: 1px solid rgba(0, 0, 0, 100);;
     
-        background-color: rgba(35, 15, 38, 1);
+        background-color: rgba(43, 189, 34, 1);
     }
     .inp_dropdown.open .valueList {
         display: block;
@@ -2362,7 +2362,7 @@
     }
     
     #avatar-settings {
-        background-color: rgba(35, 15, 38, 1);
+        background-color: rgba(43, 189, 34, 1);
     }
     .advAvtrProfile {
         width: 100%;
@@ -2517,7 +2517,7 @@
     
     /*Avatar Details*/
     #avatar-detail {
-        background-color: rgba(35, 15, 38, 1);
+        background-color: rgba(43, 189, 34, 1);
     }
     
     #avatar-detail h1 {
@@ -2590,7 +2590,7 @@
     /*Prop Detail*/
     /*Avatar Details*/
     #prop-detail {
-        background-color: rgba(35, 15, 38, 1);
+        background-color: rgba(43, 189, 34, 1);
     }
     
     #prop-detail h1 {
