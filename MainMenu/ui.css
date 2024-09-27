@@ -248,8 +248,7 @@
     }
     
     .content-cell.friend {
-        width: 20 %;
-        margin-right: 1.5%;
+        width: 25 %;
         margin-bottom: 1.5%;
     }
     .friend .content-cell-content {
@@ -1039,9 +1038,9 @@
         height: 87.5%;
         left: 1%;
     
-        border-radius: 0.35em;
-        border: 3px solid rgba(0, 0, 0, 1);
-        box-shadow: inset 0px 1px 10px 1px rgba(0, 0, 0, 1);
+        border-radius: 0em;
+        border: none;
+        border-right: 3px solid rgba(0, 0, 0, 0.4);
     }
     
     .content-instance-owner .profile-image {
@@ -2542,17 +2541,20 @@
     }
     
     /*Avatar Details*/
-    #avatar-detail {
+    #avatar-detail, 
+	#prop-detail {
         background-color: rgba(43, 189, 34, 1);
     }
     
-    #avatar-detail h1 {
+    #avatar-detail h1, 
+	#prop-detail h1 {
         text-align: left;
         margin-top: 0.3em;
         margin-left: 0.5em;
         margin-right: 4em;
     }
-    .avatar-sidebar {
+    #avatar-detail .avatar-sidebar,
+	#prop-detail .prop-sidebar {
         position: absolute;
         top: 10%;
         width: 20%;
@@ -2560,8 +2562,9 @@
         height: 88%;
         left: 1%;
     
-        border-radius: 0.35em;
-        border: 3px solid rgba(0, 0, 0, 1);;
+        border-radius: 0em;
+		border: none;
+		border-right: 3px solid rgba(0, 0, 0, 0.4);
     }
     .avatar-image {
         width: 14.5em;
@@ -2614,28 +2617,6 @@
     }
     
     /*Prop Detail*/
-    /*Avatar Details*/
-    #prop-detail {
-        background-color: rgba(43, 189, 34, 1);
-    }
-    
-    #prop-detail h1 {
-        text-align: left;
-        margin-top: 0.3em;
-        margin-left: 0.5em;
-        margin-right: 4em;
-    }
-    .prop-sidebar {
-        position: absolute;
-        top: 10%;
-        width: 20%;
-        padding: 0.5em;
-        height: 88%;
-        left: 1%;
-		
-		border-radius: 0.35em;
-        border: 3px solid rgba(0, 0, 0, 1);;
-    }
     .prop-image {
         width: 14.5em;
         height: 14.5em;
@@ -2702,9 +2683,8 @@
         width: 22.000000%;
     }
     .content-cell.friend {
-        width: 15%;
-        margin-right: 0%;
-        margin-bottom: 0%;
+        margin-right: 1.2%;
+        margin-bottom: 1.2%;
     }
     
     
